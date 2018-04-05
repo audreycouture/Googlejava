@@ -1,0 +1,102 @@
+
+	@font-face { /* Définition d'une nouvelle police nommée font-face*/
+	font-style: normal;
+	font-family: 'noto-sans' ;
+	src: url('noto-sans-fontfacekit.eot');
+	src: url('noto-sans-fontfacekit.eot?#iefix') format('embedded-opentype'), url('noto-sans-fontfacekit.woff') format('woff'), url('noto-sans-fontfacekit.ttf') format('truetype'), url('noto-sans-fontfacekit.svg#noto-sans-fontfacekitregular') format('svg'); }
+
+
+	
+}
+header 
+{
+
+ font-family: 'font-face', Arial, sans-sertif;
+ color:#000;
+}
+
+a
+{
+	text-decoration: blink;
+	color: black;
+}
+
+header img
+{
+	background-color: none;
+}
+
+header:hoover
+{
+	text-decoration: underline;
+}
+
+header:visited
+{
+	color:black;
+}
+    
+.header1
+{
+    display: flex;
+    align-items: flex-end;
+}
+.header2
+{
+	display: flex;
+	justify-content: right;
+  	align-items: flex-end;
+}
+
+.LSG
+{
+	background-color: rgb(0, 128, 255);
+	color: white
+}
+.toolbar
+{
+
+	margin: 20px;
+	padding: 40px;
+	background-color: white;
+	border-style: solid;
+}
+
+body
+{
+	background-color: white;
+	text-decoration:none;
+}
+
+
+.centre {
+	width:auto;
+	text-align: center;
+	margin: 200px;
+}
+
+.recherche
+{background-color: #C4C4C2;
+padding: 10px;
+margin: 7px;
+
+}
+
+
+.logo
+{
+  width: 50%;
+  max-width: 300px
+  
+}
+
+footer
+{
+	display: flex;
+	background-color: #C4C4C2;
+	}
+
+.fr
+{
+	border-style: solid;
+}
