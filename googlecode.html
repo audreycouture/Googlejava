@@ -6,6 +6,16 @@
 
         <meta charset="utf-8" />
         <link rel="stylesheet" href="googlestyle.css" />
+        <script type="text/javascript">
+        function monBouton(anId) {
+        affiche = document.getElementById(anId);
+        if (affiche.style.visibility == "hidden") {
+            affiche.style.visibility = "visible";
+        } else {
+            affiche.style.visibility = "hidden";
+        }
+    }
+    </script>
         <title> Google</title>
 
     </head>
@@ -13,7 +23,7 @@
     <body>
 
 <header>
-
+            
             <div class="LHD"><a href=https://mail.google.com/mail/?tab=wm > Gmail</div> 
 
             <div class="LHD"><a href= https://www.google.fr/imghp?hl=en&tab=wi> Images</div> 
@@ -25,9 +35,13 @@
              <div class="LSG"> <a href=https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.fr/%3Fgfe_rd%3Dcr%26dcr%3D0%26ei%3Drs_EWovYLq_c8Ae4v56ACA > sign in </a></div>
 </header>
 
-    
-    <section class="grande centre"> 
-            
+    <div id="bouton_google">
+        <button type="button" onclick="monBouton('bouton_google'), monBouton('google')" visibility='visible'"> Afficher les éléments principaux</button>
+    </div>
+
+    <section id="google" style="visibility:hidden;"> 
+
+                   
             <p> <img src="google_logo.png" class="logo" alt="Image logo" /> </p>
         
             <div class=" toolbar">  </div>
@@ -74,8 +88,8 @@
            
 
         </footer>
+    <script src="Scripts/main.js"></script>
 
-        
 
     </body>
 
